@@ -1,1 +1,9 @@
 D:\Programación\C#\Driver2_patcher\Driver2_patcher\bin\Debug\Driver2_patcher.exe.config
+D:\Programación\C#\Driver2_patcher\Driver2_patcher\bin\Debug\Driver2_patcher.exe
+D:\Programación\C#\Driver2_patcher\Driver2_patcher\bin\Debug\Driver2_patcher.pdb
+D:\Programación\C#\Driver2_patcher\Driver2_patcher\obj\Debug\Driver2_patcher.csprojResolveAssemblyReference.cache
+D:\Programación\C#\Driver2_patcher\Driver2_patcher\obj\Debug\Driver2_patcher.Form1.resources
+D:\Programación\C#\Driver2_patcher\Driver2_patcher\obj\Debug\Driver2_patcher.Properties.Resources.resources
+D:\Programación\C#\Driver2_patcher\Driver2_patcher\obj\Debug\Driver2_patcher.csproj.GenerateResource.Cache
+D:\Programación\C#\Driver2_patcher\Driver2_patcher\obj\Debug\Driver2_patcher.exe
+D:\Programación\C#\Driver2_patcher\Driver2_patcher\obj\Debug\Driver2_patcher.pdb
