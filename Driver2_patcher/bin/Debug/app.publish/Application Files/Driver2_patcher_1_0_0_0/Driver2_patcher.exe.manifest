@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Driver2_patcher.exe" version="1.0.0.0" publicKeyToken="94ccf0bd84f2f06e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Driver2_patcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Driver2_patcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Driver2_patcher.exe" size="408552">
+      <assemblyIdentity name="Driver2_patcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V0Mlnqt5ajbMU8PqwEqTfXHHJnLRfKvjZaF/8JxwZNE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Driver2_patcher.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-224GODB\Larger" issuerKeyHash="ea51fcf9cdc02a5b62807b776ca695150533a3c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iuTost7hDW/S9hYbWJU+7EXSZP/uQQJelKfByD8mSe4=</DigestValue></Reference></SignedInfo><SignatureValue>dJjVJN0VIjFLa4P/BgzhEfdSq9ZqDFfTUep0xmwxhSGX0yrco4mXKHos8yQge22yUldU05deg/iWbXJLhkQp8mg5WNdnnEJ4gqXxDK89rSKRetFbnO4IgNPSsCapIop46TfFXheQhRus05njJ6nIids/g020+FDqB7HkXfAe1lA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u/NVGefuJEpkqSoHITVjhF604MSyIlfZ+cuyDnUrNKDQTZcQW4I8SuMVM5G0QnGtfBzAsCueQt60hc3FCOU8DPzPywWXAxtuu++oRp+xtxv/xynkDjjckKoC2JMoKK48BRaLW/LjH8ra2mj4op6+LDhY04E8Ib8fXpznkOxWbAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ee49263fc8c1a7945e0241eeff64d245ec3e95581b16f6d26f0de1deb2e8e48a" Description="" Url=""><as:assemblyIdentity name="Driver2_patcher.exe" version="1.0.0.0" publicKeyToken="94ccf0bd84f2f06e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-224GODB\Larger</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>D3gZ7xjDBGGd3Yj+8/KfwIjCVn5+U1ixLx3Vg0Uom4U=</DigestValue></Reference></SignedInfo><SignatureValue>CsEGl+4qGhBZKNdAxhxgtx+oUWtrN80Wejcr9Vvop9BLWwJ7TjvDLTuQFFw5EsYckwoCmCxmGUPR9k/OGlS54k8HkZcTSi/xx2u8cXG9Z5fFYHF2vR+Svm2Lbfse27gpwQBgMldp7c5gPEY6f0mVA8EtoFxDuWQKh8oueUvawWc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u/NVGefuJEpkqSoHITVjhF604MSyIlfZ+cuyDnUrNKDQTZcQW4I8SuMVM5G0QnGtfBzAsCueQt60hc3FCOU8DPzPywWXAxtuu++oRp+xtxv/xynkDjjckKoC2JMoKK48BRaLW/LjH8ra2mj4op6+LDhY04E8Ib8fXpznkOxWbAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQEujwPnaWIYJEPLKKrCy3yzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADIAMgA0AEcATwBEAEIAXABMAGEAcgBnAGUAcjAeFw0xODAxMTQxNzQ4MjRaFw0xOTAxMTQyMzQ4MjRaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AMgAyADQARwBPAEQAQgBcAEwAYQByAGcAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC781UZ5+4kSmSpKgchNWOEXrTgxLIiV9n5y7IOdSs0oNBNlxBbgjxK4xUzkbRCca18HMCwK55C3rSFzcUI5TwM/M/LBZcDG26776hGn7G3G//HKeQOONyQqgLYkygorjwFFotb8uMfytraaPiinr4sOFjTgTwhvx9enOeQ7FZsAQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGq+w0mSEtHAxumVK/Yo/QNbLQECVDaawoXCTeDIFpLjZC7j1mqftOxc6ymj6+vwVgSLWwTZD5GlGgdmmZ1EttNIXWgXzKAjc5rcfLFyW5wp3yzSUTI/YVVuvxAjcQjVKlq88s2oL4ixwpwglXu1Tn5gZMHP7yWIBCWsPyndVS2C</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

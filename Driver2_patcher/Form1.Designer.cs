@@ -34,11 +34,12 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblFichero = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
-            this.btnParchear = new System.Windows.Forms.Button();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblDetectado = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btnParchear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAcerca = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,6 +85,23 @@
             this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
             this.toolStripProgressBar1.Visible = false;
             // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(227, 17);
+            this.toolStripStatusLabel2.Spring = true;
+            // 
+            // toolStripStatusLabel3
+            // 
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(227, 17);
+            this.toolStripStatusLabel3.Spring = true;
+            // 
+            // lblDetectado
+            // 
+            this.lblDetectado.Name = "lblDetectado";
+            this.lblDetectado.Size = new System.Drawing.Size(0, 17);
+            // 
             // btnParchear
             // 
             this.btnParchear.Enabled = false;
@@ -93,23 +111,7 @@
             this.btnParchear.TabIndex = 2;
             this.btnParchear.Text = "Parchear";
             this.btnParchear.UseVisualStyleBackColor = true;
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(163, 17);
-            this.toolStripStatusLabel2.Spring = true;
-            // 
-            // toolStripStatusLabel3
-            // 
-            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(163, 17);
-            this.toolStripStatusLabel3.Spring = true;
-            // 
-            // lblDetectado
-            // 
-            this.lblDetectado.Name = "lblDetectado";
-            this.lblDetectado.Size = new System.Drawing.Size(0, 17);
+            this.btnParchear.Click += new System.EventHandler(this.btnParchear_Click);
             // 
             // label1
             // 
@@ -119,16 +121,28 @@
             this.label1.Size = new System.Drawing.Size(473, 391);
             this.label1.TabIndex = 3;
             // 
+            // btnAcerca
+            // 
+            this.btnAcerca.Location = new System.Drawing.Point(12, 358);
+            this.btnAcerca.Name = "btnAcerca";
+            this.btnAcerca.Size = new System.Drawing.Size(75, 23);
+            this.btnAcerca.TabIndex = 4;
+            this.btnAcerca.Text = "Acerca de";
+            this.btnAcerca.UseVisualStyleBackColor = true;
+            this.btnAcerca.Click += new System.EventHandler(this.btnAcerca_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(470, 406);
+            this.Controls.Add(this.btnAcerca);
             this.Controls.Add(this.btnParchear);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnCargarImagen);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Driver 2 - Parcheador";
@@ -151,6 +165,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripStatusLabel lblDetectado;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAcerca;
     }
 }
 
