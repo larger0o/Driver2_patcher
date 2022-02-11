@@ -17,7 +17,7 @@ namespace Driver2_patcher
 
         //SLES_02994
         string refEU = "SLES_029.9";
-        string ValorEU = "SLES_129.9";
+        string ValorEU = "SLES_129.9*";
         int PosicionEU = 154503145;
 
         string refUS = "SLUS_011.61";
